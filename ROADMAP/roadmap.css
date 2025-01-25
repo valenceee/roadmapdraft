@@ -111,28 +111,27 @@ header {
 
 
 
-/* Media query for small screens */
 @media (max-width: 600px) {
     body {
-        grid-template-columns: 1fr; /* Stack navigation and content vertically */
-        grid-template-rows: auto auto; /* Adjust rows for stacking */
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto auto; 
     }
 
     .main_nav ul {
-        display: none; /* Hide sidebar navigation */
+        display: none; 
     }
 
     .nav_button {
-        display: block; /* Show button for mobile navigation */
+        display: block; 
     }
 
     .main_view {
-        grid-column: 1; /* Make it span full width */
+        grid-column: 1; 
         margin: 2vw 4vw;
-        height: 300px; /* Adjust height for smaller screens */
+        height: 300px; 
     }
 
     .main_view h3 {
-        font-size: clamp(1.2rem, 2vw, 1.5rem); /* Reduce font size on small screens */
+        font-size: clamp(1.2rem, 2vw, 1.5rem); 
     }
 }
